@@ -385,10 +385,10 @@ footer .link-group a:hover{
     animation: pulse 3s infinite;
 }
 .img-fluid{
-    border-radius: 50%;
+    border-radius: 100%;
     border-color: #f33a7e;
-    width: 70vw;
-    height: 60vh;
+    width: 50vw;
+    height: 40vh;
     border: 5px solid red;
 }
 #int{
