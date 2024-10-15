@@ -2,9 +2,9 @@
 let htmlProgress = document.querySelector(".html-css"),
   htmlValue = document.querySelector(".html-progress");
 
-let htmlStartValue = 0,
-  htmlEndValue = 90,
-  htmlspeed = 30;
+ let htmlStartValue = 0,
+   htmlEndValue = 90,
+   htmlspeed = 30;
 
 let progresshtml = setInterval(() => {
   htmlStartValue++;
@@ -20,67 +20,67 @@ let progresshtml = setInterval(() => {
 }, htmlspeed);
 
 // javasript progress circular bar 
-let javascriptProgress = document.querySelector(".javascript"),
-  javascriptValue = document.querySelector(".javascript-progress");
+let javaProgress = document.querySelector(".java"),
+  javaValue = document.querySelector(".java-progress");
 
-let javascriptStartValue = 0,
-  javascriptEndValue = 75,
-  jsspeed = 30;
+ let javaStartValue = 0,
+   javaEndValue = 75,
+   jsspeed = 30;
 
 let progressjs = setInterval(() => {
-  javascriptStartValue++;
+  javaStartValue++;
 
-  javascriptValue.textContent = `${javascriptStartValue}%`;
-  javascriptProgress.style.background = `conic-gradient(#7d2ae8 ${
-    javascriptStartValue * 3.6
+  javaValue.textContent = `${javaStartValue}%`;
+  javaProgress.style.background = `conic-gradient(#7d2ae8 ${
+    javaStartValue * 3.6
   }deg, #ededed 0deg)`;
 
-  if (javascriptStartValue == javascriptEndValue) {
+  if (javaStartValue == javaEndValue) {
     clearInterval(progressjs);
   }
 }, jsspeed);
 
-// php progress circular bar 
-let phpProgress = document.querySelector(".php"),
-  phpValue = document.querySelector(".php-progress");
+// sql progress circular bar 
+let sqlProgress = document.querySelector(".sql"),
+  sqlValue = document.querySelector(".sql-progress");
 
-let phpStartValue = 0,
-  phpEndValue = 80,
-  phpspeed = 30;
+ let sqlStartValue = 0,
+   sqlEndValue = 80,
+  sqlspeed = 30;
 
-let progressphp = setInterval(() => {
-  phpStartValue++;
+let progresssql = setInterval(() => {
+  sqlStartValue++;
 
-  phpValue.textContent = `${phpStartValue}%`;
-  phpProgress.style.background = `conic-gradient(#20c997 ${
-    phpStartValue * 3.6
+  sqlValue.textContent = `${sqlStartValue}%`;
+  sqlProgress.style.background = `conic-gradient(#20c997 ${
+    sqlStartValue * 3.6
   }deg, #ededed 0deg)`;
 
-  if (phpStartValue == phpEndValue) {
-    clearInterval(progressphp);
+  if (sqlStartValue == sqlEndValue) {
+    clearInterval(progresssql);
   }
-}, phpspeed);
+}, sqlspeed);
 
-// reactjs progress circular bar 
-let reactProgress = document.querySelector(".reactjs"),
-  reactValue = document.querySelector(".reactjs-progress");
+// JavaScript progress circular bar 
+let JavaScriptProgress = document.querySelector(".JavaScript"),
+JavaScriptValue = document.querySelector(".JavaScript-progress");
 
-let reactStartValue = 0,
-  reactEndValue = 30,
-  rjsspeed = 30;
+let JavaScriptStartValue = 0,
+JavaScriptEndValue = 50,
+JavaScriptspeed = 30;
 
-let progressreact = setInterval(() => {
-  reactStartValue++;
+let progressJavaScript = setInterval(() => {
+  JavaScriptStartValue++;
 
-  reactValue.textContent = `${reactStartValue}%`;
-  reactProgress.style.background = `conic-gradient(#3f396d ${
-    reactStartValue * 3.6
+  JavaScriptValue.textContent = `${JavaScriptStartValue}%`;
+  JavaScriptProgress.style.background = `conic-gradient(#3f396d ${
+    JavaScriptStartValue * 3.6
   }deg, #ededed 0deg)`;
 
-  if (reactStartValue == reactEndValue) {
-    clearInterval(progressreact);
+  if (JavaScriptStartValue ==JavaScriptEndValue) {
+    clearInterval(progressJavaScript);
   }
-}, rjsspeed);
+}, JavaScriptspeed);
 
 
 // filter using javascript
